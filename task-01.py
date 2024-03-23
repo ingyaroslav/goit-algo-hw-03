@@ -25,7 +25,7 @@ def copy_files(source_dir, dest_dir):
 if __name__ == "__main__":
     # Перевірка правильності введених аргументів командного рядка
     if len(sys.argv) != 3:
-        print("Usage: python goit-algo-hw-03-task-01.py source_directory destination_directory")
+        print("Usage: python task-01.py source_directory destination_directory")
         sys.exit(1)
 
     # Отримуємо шляхи до вихідної та призначенної директорій з аргументів командного рядка
